@@ -22,7 +22,7 @@
     [super viewDidLoad];
     [self naviConfig];
     // Do any additional setup after loading the view.
-    _myInfoArr = @[@{@"MyHotelImageView":@"我的酒店",@"title":@"我的酒店",},@{@"MyHotelImageView":@"我的航空",@"title":@"我的航空"},@{@"MyHotelImageView":@"我的消息",@"title":@"我的消息"},@{@"MyHotelImageView":@"账户设置",@"title":@"账户设置"},@{@"MyHotelImageView":@"使用协议",@"title":@"使用协议"},@{@"MyHotelImageView":@"联系客服",@"title":@"联系客服"}];
+    _myInfoArr = @[@{@"MyHotelImageView":@"hotel",@"title":@"我的酒店",},@{@"MyHotelImageView":@"plane",@"title":@"我的航空"},@{@"MyHotelImageView":@"我的消息",@"title":@"news"},@{@"MyHotelImageView":@"setting",@"title":@"账户设置"},@{@"MyHotelImageView":@"protocol",@"title":@"使用协议"},@{@"MyHotelImageView":@"contact",@"title":@"联系客服"}];
      //去掉tableview底部多余的线
     _MyInfoTableView.tableFooterView = [UIView new ];
 }

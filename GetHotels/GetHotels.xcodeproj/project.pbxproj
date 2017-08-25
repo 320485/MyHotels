@@ -8,30 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		43886FCDE1D3A1ACDE989DD3 /* libPods-GetHotels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8988D28E5F3D48D5251DFC86 /* libPods-GetHotels.a */; };
+		8412D9261F5027D50027BF29 /* GBAlipayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D8FD1F5027D50027BF29 /* GBAlipayManager.m */; };
+		8412D9271F5027D50027BF29 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9001F5027D50027BF29 /* base64.m */; };
+		8412D9281F5027D50027BF29 /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9031F5027D50027BF29 /* DataSigner.m */; };
+		8412D9291F5027D50027BF29 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9051F5027D50027BF29 /* DataVerifier.m */; };
+		8412D92A1F5027D50027BF29 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9071F5027D50027BF29 /* MD5DataSigner.m */; };
+		8412D92B1F5027D50027BF29 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9091F5027D50027BF29 /* NSDataEx.m */; };
+		8412D92C1F5027D50027BF29 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D90B1F5027D50027BF29 /* openssl_wrapper.m */; };
+		8412D92D1F5027D50027BF29 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D90D1F5027D50027BF29 /* RSADataSigner.m */; };
+		8412D92E1F5027D50027BF29 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D90F1F5027D50027BF29 /* RSADataVerifier.m */; };
+		8412D92F1F5027D50027BF29 /* AppAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9111F5027D50027BF29 /* AppAPIClient.m */; };
+		8412D9301F5027D50027BF29 /* ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9131F5027D50027BF29 /* ErrorHandler.m */; };
+		8412D9311F5027D50027BF29 /* JSONS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9151F5027D50027BF29 /* JSONS.m */; };
+		8412D9321F5027D50027BF29 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9171F5027D50027BF29 /* NSData+Base64.m */; };
+		8412D9331F5027D50027BF29 /* NSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9191F5027D50027BF29 /* NSDate+Utility.m */; };
+		8412D9341F5027D50027BF29 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D91B1F5027D50027BF29 /* NSDateFormatter+Category.m */; };
+		8412D9351F5027D50027BF29 /* NSString+Crypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D91D1F5027D50027BF29 /* NSString+Crypt.m */; };
+		8412D9361F5027D50027BF29 /* RequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D91F1F5027D50027BF29 /* RequestAPI.m */; };
+		8412D9371F5027D50027BF29 /* StorageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9211F5027D50027BF29 /* StorageMgr.m */; };
+		8412D9391F5027D50027BF29 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9251F5027D50027BF29 /* Utilities.m */; };
+		8412D9541F502CD50027BF29 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9531F502CD50027BF29 /* HMSegmentedControl.m */; };
+		8412D95C1F502CDD0027BF29 /* SKTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9571F502CDD0027BF29 /* SKTag.m */; };
+		8412D95D1F502CDD0027BF29 /* SKTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D9591F502CDD0027BF29 /* SKTagButton.m */; };
+		8412D95E1F502CDD0027BF29 /* SKTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412D95B1F502CDD0027BF29 /* SKTagView.m */; };
 		842381DE1F4E6D9B007A3817 /* HotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842381DD1F4E6D9B007A3817 /* HotelTableViewCell.m */; };
 		842381E11F4E7A22007A3817 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842381E01F4E7A22007A3817 /* LoginViewController.m */; };
 		842381E41F4E7A56007A3817 /* Sign in ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842381E31F4E7A56007A3817 /* Sign in ViewController.m */; };
 		842381E71F4EBCA4007A3817 /* MineHotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842381E61F4EBCA4007A3817 /* MineHotelTableViewCell.m */; };
 		84474A9F1F4FDD8E00089186 /* BasicEncodingRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474A9E1F4FDD8E00089186 /* BasicEncodingRules.m */; };
 		84474AC61F4FDEE700089186 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AC51F4FDEE700089186 /* libz.tbd */; };
-		84474AE41F4FE1C400089186 /* AppAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474ACF1F4FE1C400089186 /* AppAPIClient.m */; };
-		84474AE51F4FE1C400089186 /* ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AD11F4FE1C400089186 /* ErrorHandler.m */; };
-		84474AE61F4FE1C400089186 /* JSONS.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AD31F4FE1C400089186 /* JSONS.m */; };
-		84474AE71F4FE1C400089186 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AD51F4FE1C400089186 /* NSData+Base64.m */; };
-		84474AE81F4FE1C400089186 /* NSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AD71F4FE1C400089186 /* NSDate+Utility.m */; };
-		84474AE91F4FE1C400089186 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AD91F4FE1C400089186 /* NSDateFormatter+Category.m */; };
-		84474AEA1F4FE1C400089186 /* NSString+Crypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474ADB1F4FE1C400089186 /* NSString+Crypt.m */; };
-		84474AEB1F4FE1C400089186 /* RequestAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474ADD1F4FE1C400089186 /* RequestAPI.m */; };
-		84474AEC1F4FE1C400089186 /* StorageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474ADF1F4FE1C400089186 /* StorageMgr.m */; };
-		84474AEE1F4FE1C400089186 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AE31F4FE1C400089186 /* Utilities.m */; };
 		84474AF11F4FE1F900089186 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 84474AF01F4FE1F900089186 /* Order.m */; };
 		84474AF21F4FE24600089186 /* Openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474A991F4FDD1900089186 /* Openssl.framework */; };
-		84474AF71F4FE24600089186 /* AlipaySDK.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF31F4FE24600089186 /* AlipaySDK.bundle */; };
-		84474AF81F4FE24600089186 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF41F4FE24600089186 /* AlipaySDK.framework */; };
-		84474AF91F4FE24600089186 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF51F4FE24600089186 /* libcrypto.a */; };
-		84474AFA1F4FE24600089186 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF61F4FE24600089186 /* libssl.a */; };
 		84474AFB1F4FE54100089186 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AC11F4FDED300089186 /* CoreTelephony.framework */; };
 		84474AFD1F4FE54C00089186 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AFC1F4FE54C00089186 /* CoreMotion.framework */; };
+		84474B4F1F501F7600089186 /* AlipaySDK.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF31F4FE24600089186 /* AlipaySDK.bundle */; };
+		84474B501F501F7600089186 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF41F4FE24600089186 /* AlipaySDK.framework */; };
+		84474B511F501F7600089186 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF51F4FE24600089186 /* libcrypto.a */; };
+		84474B521F501F7600089186 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84474AF61F4FE24600089186 /* libssl.a */; };
 		845D5BC31F4D12FA0007F91D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D5BC21F4D12FA0007F91D /* main.m */; };
 		845D5BC61F4D12FA0007F91D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D5BC51F4D12FA0007F91D /* AppDelegate.m */; };
 		845D5BCC1F4D12FA0007F91D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D5BCA1F4D12FA0007F91D /* Main.storyboard */; };
@@ -70,6 +83,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8412D8FB1F5027D50027BF29 /* GBAlipayConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAlipayConfig.h; sourceTree = "<group>"; };
+		8412D8FC1F5027D50027BF29 /* GBAlipayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAlipayManager.h; sourceTree = "<group>"; };
+		8412D8FD1F5027D50027BF29 /* GBAlipayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAlipayManager.m; sourceTree = "<group>"; };
+		8412D8FF1F5027D50027BF29 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		8412D9001F5027D50027BF29 /* base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = base64.m; sourceTree = "<group>"; };
+		8412D9011F5027D50027BF29 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8412D9021F5027D50027BF29 /* DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSigner.h; sourceTree = "<group>"; };
+		8412D9031F5027D50027BF29 /* DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSigner.m; sourceTree = "<group>"; };
+		8412D9041F5027D50027BF29 /* DataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataVerifier.h; sourceTree = "<group>"; };
+		8412D9051F5027D50027BF29 /* DataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataVerifier.m; sourceTree = "<group>"; };
+		8412D9061F5027D50027BF29 /* MD5DataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5DataSigner.h; sourceTree = "<group>"; };
+		8412D9071F5027D50027BF29 /* MD5DataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5DataSigner.m; sourceTree = "<group>"; };
+		8412D9081F5027D50027BF29 /* NSDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataEx.h; sourceTree = "<group>"; };
+		8412D9091F5027D50027BF29 /* NSDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataEx.m; sourceTree = "<group>"; };
+		8412D90A1F5027D50027BF29 /* openssl_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl_wrapper.h; sourceTree = "<group>"; };
+		8412D90B1F5027D50027BF29 /* openssl_wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = openssl_wrapper.m; sourceTree = "<group>"; };
+		8412D90C1F5027D50027BF29 /* RSADataSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataSigner.h; sourceTree = "<group>"; };
+		8412D90D1F5027D50027BF29 /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
+		8412D90E1F5027D50027BF29 /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
+		8412D90F1F5027D50027BF29 /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
+		8412D9101F5027D50027BF29 /* AppAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAPIClient.h; sourceTree = "<group>"; };
+		8412D9111F5027D50027BF29 /* AppAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAPIClient.m; sourceTree = "<group>"; };
+		8412D9121F5027D50027BF29 /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandler.h; sourceTree = "<group>"; };
+		8412D9131F5027D50027BF29 /* ErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHandler.m; sourceTree = "<group>"; };
+		8412D9141F5027D50027BF29 /* JSONS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONS.h; sourceTree = "<group>"; };
+		8412D9151F5027D50027BF29 /* JSONS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONS.m; sourceTree = "<group>"; };
+		8412D9161F5027D50027BF29 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		8412D9171F5027D50027BF29 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		8412D9181F5027D50027BF29 /* NSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utility.h"; sourceTree = "<group>"; };
+		8412D9191F5027D50027BF29 /* NSDate+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utility.m"; sourceTree = "<group>"; };
+		8412D91A1F5027D50027BF29 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		8412D91B1F5027D50027BF29 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		8412D91C1F5027D50027BF29 /* NSString+Crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypt.h"; sourceTree = "<group>"; };
+		8412D91D1F5027D50027BF29 /* NSString+Crypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypt.m"; sourceTree = "<group>"; };
+		8412D91E1F5027D50027BF29 /* RequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPI.h; sourceTree = "<group>"; };
+		8412D91F1F5027D50027BF29 /* RequestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAPI.m; sourceTree = "<group>"; };
+		8412D9201F5027D50027BF29 /* StorageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageMgr.h; sourceTree = "<group>"; };
+		8412D9211F5027D50027BF29 /* StorageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageMgr.m; sourceTree = "<group>"; };
+		8412D9241F5027D50027BF29 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		8412D9251F5027D50027BF29 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		8412D93A1F50281F0027BF29 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = GetHotels/Constant/Constants.h; sourceTree = SOURCE_ROOT; };
+		8412D9521F502CD50027BF29 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		8412D9531F502CD50027BF29 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		8412D9561F502CDD0027BF29 /* SKTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTag.h; sourceTree = "<group>"; };
+		8412D9571F502CDD0027BF29 /* SKTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTag.m; sourceTree = "<group>"; };
+		8412D9581F502CDD0027BF29 /* SKTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagButton.h; sourceTree = "<group>"; };
+		8412D9591F502CDD0027BF29 /* SKTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagButton.m; sourceTree = "<group>"; };
+		8412D95A1F502CDD0027BF29 /* SKTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTagView.h; sourceTree = "<group>"; };
+		8412D95B1F502CDD0027BF29 /* SKTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTagView.m; sourceTree = "<group>"; };
 		842381DC1F4E6D9B007A3817 /* HotelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelTableViewCell.h; sourceTree = "<group>"; };
 		842381DD1F4E6D9B007A3817 /* HotelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelTableViewCell.m; sourceTree = "<group>"; };
 		842381DF1F4E7A22007A3817 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -80,7 +142,7 @@
 		842381E61F4EBCA4007A3817 /* MineHotelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineHotelTableViewCell.m; sourceTree = "<group>"; };
 		84474A781F4FB93900089186 /* Openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Openssl.framework; path = ../../Openssl.framework; sourceTree = "<group>"; };
 		84474A991F4FDD1900089186 /* Openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Openssl.framework; path = GetHotels/Openssl.framework; sourceTree = "<group>"; };
-		84474A9B1F4FDD5500089186 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		84474A9B1F4FDD5500089186 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constant/Constants.h; sourceTree = "<group>"; };
 		84474A9D1F4FDD8E00089186 /* BasicEncodingRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicEncodingRules.h; sourceTree = "<group>"; };
 		84474A9E1F4FDD8E00089186 /* BasicEncodingRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicEncodingRules.m; sourceTree = "<group>"; };
 		84474ABF1F4FDEC700089186 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -90,26 +152,6 @@
 		84474AC71F4FDEF100089186 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		84474AC91F4FDEFB00089186 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84474ACB1F4FDF0900089186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		84474ACE1F4FE1C400089186 /* AppAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAPIClient.h; sourceTree = "<group>"; };
-		84474ACF1F4FE1C400089186 /* AppAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAPIClient.m; sourceTree = "<group>"; };
-		84474AD01F4FE1C400089186 /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHandler.h; sourceTree = "<group>"; };
-		84474AD11F4FE1C400089186 /* ErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHandler.m; sourceTree = "<group>"; };
-		84474AD21F4FE1C400089186 /* JSONS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONS.h; sourceTree = "<group>"; };
-		84474AD31F4FE1C400089186 /* JSONS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONS.m; sourceTree = "<group>"; };
-		84474AD41F4FE1C400089186 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		84474AD51F4FE1C400089186 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		84474AD61F4FE1C400089186 /* NSDate+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utility.h"; sourceTree = "<group>"; };
-		84474AD71F4FE1C400089186 /* NSDate+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utility.m"; sourceTree = "<group>"; };
-		84474AD81F4FE1C400089186 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
-		84474AD91F4FE1C400089186 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
-		84474ADA1F4FE1C400089186 /* NSString+Crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypt.h"; sourceTree = "<group>"; };
-		84474ADB1F4FE1C400089186 /* NSString+Crypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypt.m"; sourceTree = "<group>"; };
-		84474ADC1F4FE1C400089186 /* RequestAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestAPI.h; sourceTree = "<group>"; };
-		84474ADD1F4FE1C400089186 /* RequestAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestAPI.m; sourceTree = "<group>"; };
-		84474ADE1F4FE1C400089186 /* StorageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageMgr.h; sourceTree = "<group>"; };
-		84474ADF1F4FE1C400089186 /* StorageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageMgr.m; sourceTree = "<group>"; };
-		84474AE21F4FE1C400089186 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		84474AE31F4FE1C400089186 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		84474AEF1F4FE1F900089186 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
 		84474AF01F4FE1F900089186 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
 		84474AF31F4FE24600089186 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = GetHotels/AlipaySDK.bundle; sourceTree = "<group>"; };
@@ -123,7 +165,7 @@
 		845D5BC51F4D12FA0007F91D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		845D5BCB1F4D12FA0007F91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845D5BCE1F4D12FA0007F91D /* GetHotels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetHotels.xcdatamodel; sourceTree = "<group>"; };
-		845D5BD01F4D12FA0007F91D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845D5BD01F4D12FA0007F91D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		845D5BD31F4D12FA0007F91D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845D5BD51F4D12FA0007F91D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845D5BDA1F4D12FA0007F91D /* GetHotelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetHotelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,12 +205,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84474B4F1F501F7600089186 /* AlipaySDK.bundle in Frameworks */,
+				84474B501F501F7600089186 /* AlipaySDK.framework in Frameworks */,
+				84474B511F501F7600089186 /* libcrypto.a in Frameworks */,
+				84474B521F501F7600089186 /* libssl.a in Frameworks */,
 				84474AFD1F4FE54C00089186 /* CoreMotion.framework in Frameworks */,
 				84474AFB1F4FE54100089186 /* CoreTelephony.framework in Frameworks */,
-				84474AF71F4FE24600089186 /* AlipaySDK.bundle in Frameworks */,
-				84474AF81F4FE24600089186 /* AlipaySDK.framework in Frameworks */,
-				84474AF91F4FE24600089186 /* libcrypto.a in Frameworks */,
-				84474AFA1F4FE24600089186 /* libssl.a in Frameworks */,
 				84474AF21F4FE24600089186 /* Openssl.framework in Frameworks */,
 				84474AC61F4FDEE700089186 /* libz.tbd in Frameworks */,
 				43886FCDE1D3A1ACDE989DD3 /* libPods-GetHotels.a in Frameworks */,
@@ -192,6 +234,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8412D8F91F5027D50027BF29 /* Utlity */ = {
+			isa = PBXGroup;
+			children = (
+				8412D8FA1F5027D50027BF29 /* AliMgr */,
+				8412D8FE1F5027D50027BF29 /* AliUtil */,
+				8412D9101F5027D50027BF29 /* AppAPIClient.h */,
+				8412D9111F5027D50027BF29 /* AppAPIClient.m */,
+				8412D9121F5027D50027BF29 /* ErrorHandler.h */,
+				8412D9131F5027D50027BF29 /* ErrorHandler.m */,
+				8412D9141F5027D50027BF29 /* JSONS.h */,
+				8412D9151F5027D50027BF29 /* JSONS.m */,
+				8412D9161F5027D50027BF29 /* NSData+Base64.h */,
+				8412D9171F5027D50027BF29 /* NSData+Base64.m */,
+				8412D9181F5027D50027BF29 /* NSDate+Utility.h */,
+				8412D9191F5027D50027BF29 /* NSDate+Utility.m */,
+				8412D91A1F5027D50027BF29 /* NSDateFormatter+Category.h */,
+				8412D91B1F5027D50027BF29 /* NSDateFormatter+Category.m */,
+				8412D91C1F5027D50027BF29 /* NSString+Crypt.h */,
+				8412D91D1F5027D50027BF29 /* NSString+Crypt.m */,
+				8412D91E1F5027D50027BF29 /* RequestAPI.h */,
+				8412D91F1F5027D50027BF29 /* RequestAPI.m */,
+				8412D9201F5027D50027BF29 /* StorageMgr.h */,
+				8412D9211F5027D50027BF29 /* StorageMgr.m */,
+				8412D9241F5027D50027BF29 /* Utilities.h */,
+				8412D9251F5027D50027BF29 /* Utilities.m */,
+			);
+			path = Utlity;
+			sourceTree = "<group>";
+		};
+		8412D8FA1F5027D50027BF29 /* AliMgr */ = {
+			isa = PBXGroup;
+			children = (
+				8412D8FB1F5027D50027BF29 /* GBAlipayConfig.h */,
+				8412D8FC1F5027D50027BF29 /* GBAlipayManager.h */,
+				8412D8FD1F5027D50027BF29 /* GBAlipayManager.m */,
+			);
+			path = AliMgr;
+			sourceTree = "<group>";
+		};
+		8412D8FE1F5027D50027BF29 /* AliUtil */ = {
+			isa = PBXGroup;
+			children = (
+				8412D8FF1F5027D50027BF29 /* base64.h */,
+				8412D9001F5027D50027BF29 /* base64.m */,
+				8412D9011F5027D50027BF29 /* config.h */,
+				8412D9021F5027D50027BF29 /* DataSigner.h */,
+				8412D9031F5027D50027BF29 /* DataSigner.m */,
+				8412D9041F5027D50027BF29 /* DataVerifier.h */,
+				8412D9051F5027D50027BF29 /* DataVerifier.m */,
+				8412D9061F5027D50027BF29 /* MD5DataSigner.h */,
+				8412D9071F5027D50027BF29 /* MD5DataSigner.m */,
+				8412D9081F5027D50027BF29 /* NSDataEx.h */,
+				8412D9091F5027D50027BF29 /* NSDataEx.m */,
+				8412D90A1F5027D50027BF29 /* openssl_wrapper.h */,
+				8412D90B1F5027D50027BF29 /* openssl_wrapper.m */,
+				8412D90C1F5027D50027BF29 /* RSADataSigner.h */,
+				8412D90D1F5027D50027BF29 /* RSADataSigner.m */,
+				8412D90E1F5027D50027BF29 /* RSADataVerifier.h */,
+				8412D90F1F5027D50027BF29 /* RSADataVerifier.m */,
+			);
+			path = AliUtil;
+			sourceTree = "<group>";
+		};
+		8412D9511F502CD50027BF29 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				8412D9521F502CD50027BF29 /* HMSegmentedControl.h */,
+				8412D9531F502CD50027BF29 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8412D9551F502CDD0027BF29 /* SKTagView */ = {
+			isa = PBXGroup;
+			children = (
+				8412D9561F502CDD0027BF29 /* SKTag.h */,
+				8412D9571F502CDD0027BF29 /* SKTag.m */,
+				8412D9581F502CDD0027BF29 /* SKTagButton.h */,
+				8412D9591F502CDD0027BF29 /* SKTagButton.m */,
+				8412D95A1F502CDD0027BF29 /* SKTagView.h */,
+				8412D95B1F502CDD0027BF29 /* SKTagView.m */,
+			);
+			path = SKTagView;
+			sourceTree = "<group>";
+		};
 		84474A9C1F4FDD8E00089186 /* SCZ-BasicEncodingRules */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,31 +328,13 @@
 			path = "SCZ-BasicEncodingRules";
 			sourceTree = "<group>";
 		};
-		84474ACD1F4FE1C400089186 /* Utility */ = {
+		84474B0C1F501DDB00089186 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
-				84474ACE1F4FE1C400089186 /* AppAPIClient.h */,
-				84474ACF1F4FE1C400089186 /* AppAPIClient.m */,
-				84474AD01F4FE1C400089186 /* ErrorHandler.h */,
-				84474AD11F4FE1C400089186 /* ErrorHandler.m */,
-				84474AD21F4FE1C400089186 /* JSONS.h */,
-				84474AD31F4FE1C400089186 /* JSONS.m */,
-				84474AD41F4FE1C400089186 /* NSData+Base64.h */,
-				84474AD51F4FE1C400089186 /* NSData+Base64.m */,
-				84474AD61F4FE1C400089186 /* NSDate+Utility.h */,
-				84474AD71F4FE1C400089186 /* NSDate+Utility.m */,
-				84474AD81F4FE1C400089186 /* NSDateFormatter+Category.h */,
-				84474AD91F4FE1C400089186 /* NSDateFormatter+Category.m */,
-				84474ADA1F4FE1C400089186 /* NSString+Crypt.h */,
-				84474ADB1F4FE1C400089186 /* NSString+Crypt.m */,
-				84474ADC1F4FE1C400089186 /* RequestAPI.h */,
-				84474ADD1F4FE1C400089186 /* RequestAPI.m */,
-				84474ADE1F4FE1C400089186 /* StorageMgr.h */,
-				84474ADF1F4FE1C400089186 /* StorageMgr.m */,
-				84474AE21F4FE1C400089186 /* Utilities.h */,
-				84474AE31F4FE1C400089186 /* Utilities.m */,
+				8412D93A1F50281F0027BF29 /* Constants.h */,
 			);
-			path = Utility;
+			name = Constant;
+			path = ../../../Hotel/GetHotels/Constant;
 			sourceTree = "<group>";
 		};
 		845D5BB51F4D12FA0007F91D = {
@@ -253,16 +362,12 @@
 		845D5BC01F4D12FA0007F91D /* GetHotels */ = {
 			isa = PBXGroup;
 			children = (
-				84474ACD1F4FE1C400089186 /* Utility */,
+				8412D8F91F5027D50027BF29 /* Utlity */,
+				84474B0C1F501DDB00089186 /* Constant */,
 				845D5BFB1F4D14550007F91D /* View */,
 				845D5BFA1F4D14490007F91D /* Model */,
 				845D5BF91F4D143F0007F91D /* Controller */,
-				845D5BF81F4D14370007F91D /* Constant */,
 				845D5BF71F4D142F0007F91D /* 3rd */,
-				845D5BCA1F4D12FA0007F91D /* Main.storyboard */,
-				845D5BD01F4D12FA0007F91D /* Assets.xcassets */,
-				845D5BD21F4D12FA0007F91D /* LaunchScreen.storyboard */,
-				845D5BCD1F4D12FA0007F91D /* GetHotels.xcdatamodeld */,
 				845D5BC11F4D12FA0007F91D /* Supporting Files */,
 			);
 			path = GetHotels;
@@ -301,25 +406,19 @@
 		845D5BF71F4D142F0007F91D /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				8412D9551F502CDD0027BF29 /* SKTagView */,
+				8412D9511F502CD50027BF29 /* HMSegmentedControl */,
 				84474A9C1F4FDD8E00089186 /* SCZ-BasicEncodingRules */,
 			);
 			path = 3rd;
-			sourceTree = "<group>";
-		};
-		845D5BF81F4D14370007F91D /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				84474A9B1F4FDD5500089186 /* Constants.h */,
-			);
-			path = Constant;
 			sourceTree = "<group>";
 		};
 		845D5BF91F4D143F0007F91D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				845D5C051F4D1AB60007F91D /* HotelViewController */,
-				845D5C041F4D1AB30007F91D /* AviationViewController */,
 				845D5C031F4D1AB00007F91D /* MyInfoViewController */,
+				84474A9B1F4FDD5500089186 /* Constants.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +426,7 @@
 		845D5BFA1F4D14490007F91D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				845D5BCD1F4D12FA0007F91D /* GetHotels.xcdatamodeld */,
 				84474AEF1F4FE1F900089186 /* Order.h */,
 				84474AF01F4FE1F900089186 /* Order.m */,
 			);
@@ -336,6 +436,9 @@
 		845D5BFB1F4D14550007F91D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				845D5BD01F4D12FA0007F91D /* Assets.xcassets */,
+				845D5BD21F4D12FA0007F91D /* LaunchScreen.storyboard */,
+				845D5BCA1F4D12FA0007F91D /* Main.storyboard */,
 				845D5C141F4D38130007F91D /* HotelView */,
 				845D5C131F4D380F0007F91D /* AnationView */,
 				845D5C121F4D380D0007F91D /* MyInfoView */,
@@ -382,6 +485,7 @@
 			children = (
 				845D5C0C1F4D37C00007F91D /* HotelViewController.h */,
 				845D5C0D1F4D37C00007F91D /* HotelViewController.m */,
+				845D5C041F4D1AB30007F91D /* AviationViewController */,
 			);
 			name = HotelViewController;
 			sourceTree = "<group>";
@@ -628,34 +732,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84474AEE1F4FE1C400089186 /* Utilities.m in Sources */,
 				845D5BCF1F4D12FA0007F91D /* GetHotels.xcdatamodeld in Sources */,
-				84474AEC1F4FE1C400089186 /* StorageMgr.m in Sources */,
-				84474AE91F4FE1C400089186 /* NSDateFormatter+Category.m in Sources */,
+				8412D92F1F5027D50027BF29 /* AppAPIClient.m in Sources */,
+				8412D9311F5027D50027BF29 /* JSONS.m in Sources */,
 				845D5C0B1F4D2EDE0007F91D /* AnationViewController.m in Sources */,
+				8412D92B1F5027D50027BF29 /* NSDataEx.m in Sources */,
+				8412D9391F5027D50027BF29 /* Utilities.m in Sources */,
 				845D5BC61F4D12FA0007F91D /* AppDelegate.m in Sources */,
 				84474AF11F4FE1F900089186 /* Order.m in Sources */,
-				84474AEA1F4FE1C400089186 /* NSString+Crypt.m in Sources */,
-				84474AE71F4FE1C400089186 /* NSData+Base64.m in Sources */,
+				8412D9271F5027D50027BF29 /* base64.m in Sources */,
 				84FDF52A1F4D6B3F006AD2A8 /* MyHotelViewController.m in Sources */,
+				8412D9361F5027D50027BF29 /* RequestAPI.m in Sources */,
+				8412D95D1F502CDD0027BF29 /* SKTagButton.m in Sources */,
+				8412D92E1F5027D50027BF29 /* RSADataVerifier.m in Sources */,
 				84FDF5391F4D7218006AD2A8 /* CallViewController.m in Sources */,
+				8412D9371F5027D50027BF29 /* StorageMgr.m in Sources */,
 				845D5C0E1F4D37C00007F91D /* HotelViewController.m in Sources */,
+				8412D9291F5027D50027BF29 /* DataVerifier.m in Sources */,
+				8412D9281F5027D50027BF29 /* DataSigner.m in Sources */,
+				8412D9341F5027D50027BF29 /* NSDateFormatter+Category.m in Sources */,
+				8412D9541F502CD50027BF29 /* HMSegmentedControl.m in Sources */,
 				842381DE1F4E6D9B007A3817 /* HotelTableViewCell.m in Sources */,
+				8412D95C1F502CDD0027BF29 /* SKTag.m in Sources */,
 				84FDF52D1F4D7197006AD2A8 /* MyAnationViewController.m in Sources */,
+				8412D9321F5027D50027BF29 /* NSData+Base64.m in Sources */,
 				84FDF5361F4D7201006AD2A8 /* MessageViewController.m in Sources */,
-				84474AE61F4FE1C400089186 /* JSONS.m in Sources */,
-				84474AE51F4FE1C400089186 /* ErrorHandler.m in Sources */,
-				84474AEB1F4FE1C400089186 /* RequestAPI.m in Sources */,
 				845D5C111F4D37DA0007F91D /* MyInfoViewController.m in Sources */,
 				842381E41F4E7A56007A3817 /* Sign in ViewController.m in Sources */,
-				84474AE81F4FE1C400089186 /* NSDate+Utility.m in Sources */,
 				845D5C171F4D38AB0007F91D /* MyHotelTableViewCell.m in Sources */,
-				84474AE41F4FE1C400089186 /* AppAPIClient.m in Sources */,
+				8412D9261F5027D50027BF29 /* GBAlipayManager.m in Sources */,
+				8412D9331F5027D50027BF29 /* NSDate+Utility.m in Sources */,
 				84FDF5331F4D71E5006AD2A8 /* SetViewController.m in Sources */,
 				84474A9F1F4FDD8E00089186 /* BasicEncodingRules.m in Sources */,
 				845D5BC31F4D12FA0007F91D /* main.m in Sources */,
+				8412D92D1F5027D50027BF29 /* RSADataSigner.m in Sources */,
 				84FDF5301F4D71D3006AD2A8 /* AgreementViewController.m in Sources */,
+				8412D9301F5027D50027BF29 /* ErrorHandler.m in Sources */,
+				8412D92C1F5027D50027BF29 /* openssl_wrapper.m in Sources */,
 				842381E11F4E7A22007A3817 /* LoginViewController.m in Sources */,
+				8412D92A1F5027D50027BF29 /* MD5DataSigner.m in Sources */,
+				8412D95E1F502CDD0027BF29 /* SKTagView.m in Sources */,
+				8412D9351F5027D50027BF29 /* NSString+Crypt.m in Sources */,
 				842381E71F4EBCA4007A3817 /* MineHotelTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +815,7 @@
 				845D5BCB1F4D12FA0007F91D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		845D5BD21F4D12FA0007F91D /* LaunchScreen.storyboard */ = {
@@ -706,6 +824,7 @@
 				845D5BD31F4D12FA0007F91D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -939,7 +1058,8 @@
 				845D5BCE1F4D12FA0007F91D /* GetHotels.xcdatamodel */,
 			);
 			currentVersion = 845D5BCE1F4D12FA0007F91D /* GetHotels.xcdatamodel */;
-			path = GetHotels.xcdatamodeld;
+			name = GetHotels.xcdatamodeld;
+			path = ../GetHotels.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

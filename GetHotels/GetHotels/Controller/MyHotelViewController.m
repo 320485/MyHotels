@@ -19,7 +19,7 @@
     [super viewDidLoad];
     [self naviConfig];
     // Do any additional setup after loading the view.
-    _MyHotelArr = @[@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"我的酒店",@"Image2":@"我的酒店",@"Image3":@"我的酒店",@"Image4":@"我的",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"},@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"我的酒店",@"Image2":@"我的酒店",@"Image3":@"我的酒店",@"Image4":@"我的",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"},@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"我的酒店",@"Image2":@"我的酒店",@"Image3":@"我的酒店",@"Image4":@"我的",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"}];
+    _MyHotelArr = @[@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"map_adress",@"Image2":@"my",@"Image3":@"calendar",@"Image4":@"my_hotel",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"},@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"map_adress",@"Image2":@"我的",@"Image3":@"calendar",@"Image4":@"my_hotel",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"},@{@"HotelNameLabel":@"希尔顿酒店套房",@"Image1":@"map_adress",@"Image2":@"我的",@"Image3":@"calendar",@"Image4":@"my_hotel",@"AdressLabel":@"厦门市集美区",@"PeopleNumLabel":@"一人入住",@"TimeLabel1":@"2017-2-23",@"TimeLabel2":@"2017-2-25"}];
     //去掉tableview底部多余的线
     _MyHotelTableView.tableFooterView = [UIView new ];
 }
