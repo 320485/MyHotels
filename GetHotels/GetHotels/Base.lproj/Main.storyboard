@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zKo-MA-uhX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zKo-MA-uhX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -64,6 +64,9 @@
                                 <state key="normal" title="登录">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="lohinAction:forEvent:" destination="40I-j4-nvD" eventType="touchUpInside" id="KgC-KL-aWd"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZn-3N-HLI">
                                 <rect key="frame" x="56" y="152" width="263" height="164"/>
@@ -76,6 +79,9 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="40I-j4-nvD" id="W75-ba-4eH"/>
+                                        </connections>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的" translatesAutoresizingMaskIntoConstraints="NO" id="L7s-mu-VTf">
                                         <rect key="frame" x="15" y="40" width="20" height="20"/>
@@ -99,6 +105,9 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="40I-j4-nvD" id="5WM-K4-YJG"/>
+                                        </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQP-MT-Jbk">
                                         <rect key="frame" x="150" y="124" width="78" height="30"/>
@@ -154,6 +163,11 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="loginBtn" destination="KWM-so-lX1" id="BdK-1v-ls6"/>
+                        <outlet property="phoneTextField" destination="tzh-yf-vJp" id="JwS-h3-YVD"/>
+                        <outlet property="pwdTextField" destination="GrA-Vt-jgS" id="1QI-Hz-XDw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5B-6O-GKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -296,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hdO-nY-New" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="164"/>
+            <point key="canvasLocation" x="1215" y="143"/>
         </scene>
         <!--我的消息-->
         <scene sceneID="xPO-7k-1ef">
@@ -314,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UQw-59-Ivc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="854"/>
+            <point key="canvasLocation" x="1001" y="984"/>
         </scene>
         <!--账户设置-->
         <scene sceneID="AbN-CL-fkO">
@@ -333,7 +347,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubj-Mh-4oC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1638" y="854"/>
+            <point key="canvasLocation" x="1686" y="942"/>
         </scene>
         <!--使用协议-->
         <scene sceneID="ufq-WQ-GIv">
@@ -352,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TjW-0z-ym1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="842"/>
+            <point key="canvasLocation" x="2399" y="930"/>
         </scene>
         <!--联系客服-->
         <scene sceneID="gvp-gz-xOm">
@@ -371,7 +385,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8v-Kx-Yaq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3186" y="853"/>
+            <point key="canvasLocation" x="3186" y="930"/>
         </scene>
         <!--我的酒店-->
         <scene sceneID="wBH-aE-ZU3">
@@ -571,7 +585,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nm2-gn-7ko" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-498.39999999999998" y="864.91754122938539"/>
+            <point key="canvasLocation" x="-473" y="975"/>
         </scene>
         <!--我的航空-->
         <scene sceneID="gly-FD-q2Z">
@@ -603,7 +617,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o7u-l7-ODI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="241" y="854"/>
+            <point key="canvasLocation" x="214" y="975"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0tX-6D-NTA">
@@ -1098,10 +1112,10 @@
             </objects>
             <point key="canvasLocation" x="2244" y="-575.26236881559225"/>
         </scene>
-        <!--Sign in View Controller-->
+        <!--Sigin In View Controller-->
         <scene sceneID="ZHi-2r-23m">
             <objects>
-                <viewController id="f5W-yV-y8b" customClass="Sign_in_ViewController" sceneMemberID="viewController">
+                <viewController id="f5W-yV-y8b" customClass="SiginInViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hm6-Jr-pb8"/>
                         <viewControllerLayoutGuide type="bottom" id="Vaf-tP-Qgs"/>
@@ -1138,18 +1152,27 @@
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="f5W-yV-y8b" id="oax-WZ-0B9"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iDf-XH-Ixe">
                                         <rect key="frame" x="80" y="115" width="185" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="f5W-yV-y8b" id="m50-ne-a89"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请再次输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uhz-B5-zlX">
                                         <rect key="frame" x="80" y="175" width="185" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="f5W-yV-y8b" id="5Ol-mV-0U1"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1181,6 +1204,10 @@
                                 <state key="normal" title="注册">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="siginInAction:forEvent:" destination="f5W-yV-y8b" eventType="touchUpInside" id="ch8-h3-Dar"/>
+                                    <segue destination="40I-j4-nvD" kind="show" identifier="signUpToLogin" id="Fn1-3a-ZYJ"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的" translatesAutoresizingMaskIntoConstraints="NO" id="Nx0-Ms-YCy">
                                 <rect key="frame" x="157" y="142" width="60" height="60"/>
@@ -1205,10 +1232,17 @@
                             <constraint firstItem="Nx0-Ms-YCy" firstAttribute="centerX" secondItem="dyb-th-zlL" secondAttribute="centerX" id="pQA-CB-i9R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="confirmPwdTextField" destination="uhz-B5-zlX" id="UZZ-tC-fg6"/>
+                        <outlet property="headImageView" destination="Nx0-Ms-YCy" id="lsJ-Kh-OaE"/>
+                        <outlet property="phoneTextField" destination="eTi-Mb-AxI" id="zWD-vQ-5wJ"/>
+                        <outlet property="pwdTextField" destination="iDf-XH-Ixe" id="Ydb-be-G8Y"/>
+                        <outlet property="siginInBtn" destination="fox-ZG-GMa" id="ggx-Aa-aOp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sU9-rh-kHO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3559" y="-293"/>
+            <point key="canvasLocation" x="3068" y="-1"/>
         </scene>
         <!--我的-->
         <scene sceneID="4nH-0A-FtJ">
@@ -1281,4 +1315,7 @@
         <image name="我的" width="44" height="44"/>
         <image name="收起" width="44" height="44"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="KB8-yl-Biy"/>
+    </inferredMetricsTieBreakers>
 </document>
