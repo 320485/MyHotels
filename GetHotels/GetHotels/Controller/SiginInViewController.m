@@ -1,22 +1,21 @@
 //
-//  Sign in ViewController.m
+//  SiginInViewController.m
 //  GetHotels
 //
-//  Created by admin on 2017/8/24.
+//  Created by admin on 2017/8/28.
 //  Copyright © 2017年 admin. All rights reserved.
 //
 
-#import "Sign in ViewController.h"
+#import "SiginInViewController.h"
 
-@interface Sign_in_ViewController ()
+@interface SiginInViewController ()
 
 @end
 
-@implementation Sign_in_ViewController
+@implementation SiginInViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self naviConfig];
     // Do any additional setup after loading the view.
 }
 
@@ -43,6 +42,7 @@
     //设置是否需要毛玻璃效果
     self.navigationController.navigationBar.translucent = YES;
 }
+
 /*
 #pragma mark - Navigation
 
