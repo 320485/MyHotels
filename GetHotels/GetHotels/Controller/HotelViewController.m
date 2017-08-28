@@ -8,16 +8,21 @@
 
 #import "HotelViewController.h"
 #import "HotelTableViewCell.h"
-@interface HotelViewController ()
+@interface HotelViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>{
+    BOOL firstVisit;
+}
+@property (strong,nonatomic) NSDictionary *cities;
+@property (weak, nonatomic) IBOutlet UIButton *SecectAdressBtn;
+@property (strong,nonatomic) NSArray *keys;
 @property (weak, nonatomic) IBOutlet UITableView *HotelTableView;
-- (IBAction)SelectAdressBtn:(UIButton *)sender forEvent:(UIEvent *)event;
 - (IBAction)WeatherBtn:(UIButton *)sender forEvent:(UIEvent *)event;
 @property (weak, nonatomic) IBOutlet UIDatePicker *DatePicker;
 @property (weak, nonatomic) IBOutlet UIToolbar *Toolbar;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *CancelAction;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *ConfirmAction;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *CityBtn;
-
+@property (strong, nonatomic) NSString *date1;
+@property (strong, nonatomic) NSString *date2;
 
 @property (strong, nonatomic) NSArray *HotelArr;
 @end
@@ -27,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    [self naviConfig];
+   // [self netwodkRequest];
     // Do any additional setup after loading the view.
     _HotelArr = @[@{@"HotelImage":@"hotels",@"HotelLabel":@"无锡万达喜来登酒店",@"HotelAdressLabel":@"无锡",@"HotelDistanceLabel":@"距离我3.5公里"},@{@"HotelImage":@"hotels",@"HotelLabel":@"无锡万达喜来登酒店",@"HotelAdressLabel":@"无锡",@"HotelDistanceLabel":@"距离我3.5公里"},@{@"HotelImage":@"hotels",@"HotelLabel":@"无锡万达喜来登酒店",@"HotelAdressLabel":@"无锡",@"HotelDistanceLabel":@"距离我3.5公里"}];
     //去掉tableview底部多余的线
@@ -38,12 +44,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)uiLayout{
-    
-}
--(void)networkRequest{
-    
-}
+
 //当前页面将要显示的时候，显示导航栏
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -63,13 +64,11 @@
     //设置是否需要毛玻璃效果
     self.navigationController.navigationBar.translucent = YES;
 }
-
 #pragma mark - table view
 //有多少组
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return _HotelArr.count;
 }
-
 //每组多少行
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 3;
@@ -86,6 +85,23 @@
     return cell;
 
 }
+-(void)setDefaultTime{
+    //初始化一个日期格式器
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    //初始化一个日期格式器
+    NSDateFormatter *formatter2 =[[NSDateFormatter alloc] init];
+    NSDate *today = [NSDate date];
+     //明天的日期
+    NSDate *tomorrow = [NSDate dateTomorrow];
+    //定义日期的格式为yyyy-MM-dd
+    formatter2.dateFormat = @"yyyy-MM-ddTHH:mm:ss.SSSZ";
+    formatter.dateFormat = @"yyyy-MM-dd";
+    _date1 = [formatter2 stringFromDate:today];
+    _date2 = [formatter2 stringFromDate:tomorrow];
+    
+  
+
+}
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -96,6 +112,16 @@
 
 
 
-- (IBAction)WeatherBtn:(UIButton *)sender forEvent:(UIEvent *)event {
+  #pragma mark - request
+
+-(void)netwodkRequest{
+    NSDictionary *para = @{@"startId":@1,@"priceId":@2,@"sortingId":@3,@"inTime":_date1,@"outTime":_date2,@"page":@6};
+    [RequestAPI requestURL:@"/findAllHotelAndAdvertising"  withParameters:para andHeader:nil byMethod:kForm andSerializer:kForm success:^(id responseObject) {
+        
+    } failure:^(NSInteger statusCode, NSError *error) {
+        
+    }];
+}
+   - (IBAction)WeatherBtn:(UIButton *)sender forEvent:(UIEvent *)event {
 }
 @end

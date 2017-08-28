@@ -31,7 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-//当前页面将要显示的时候，隐藏导航栏
+//当前页面将要显示的时候，显示导航栏
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:NO animated:animated];
@@ -87,7 +87,7 @@
 //细胞选中后调用
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    if([Utilities loginCheck])
     switch (indexPath.section) {
         case 0:
             [self performSegueWithIdentifier:@"MyInfotoHotel" sender:self];
@@ -109,6 +109,11 @@
             [self performSegueWithIdentifier:@"MyInfotoCall" sender:self];
             break;
     }
-}
+else{
+    
+    [self performSegueWithIdentifier:@"MyInfotologin" sender:self];
+    
 
+}
+}
 @end
